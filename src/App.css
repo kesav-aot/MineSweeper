@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+  filter: drop-shadow(5px 5px 5px black);
+  animation: explode 2s ease-in-out infinite alternate;
+}
+
+@keyframes explode {
+  from {
+    transform: scale(1);
+
+  }
+  to {
+    
+    color: crimson;
+    
+  }
+}

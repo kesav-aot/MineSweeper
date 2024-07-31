@@ -1,0 +1,45 @@
+/* mine.css */
+.main {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+    padding: 20px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.mineBlock {
+    display: inline-grid;
+    grid-gap: 2px;
+    margin: 0 auto;
+}
+
+.mines {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 2px;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
